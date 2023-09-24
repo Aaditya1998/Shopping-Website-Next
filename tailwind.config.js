@@ -1,0 +1,98 @@
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: [
+    "./pages/**/*.{js,ts,jsx,tsx}",
+    "./components/**/*.{js,ts,jsx,tsx}",
+  ],
+  theme: {
+    extend: {
+      colors: {
+        "studio-darkmode-maincta-457eff": "#457eff",
+        "studio-darkmode-explainertext-485269": "#485269",
+        mediumseagreen: "#4fc786",
+        slateblue: "#6967da",
+        darkslategray: {
+          "100": "#484f5e",
+          "200": "#40495e",
+          "300": "#3e3a3a",
+        },
+        indianred: "#f4596c",
+        white: "#fff",
+        "studio-darkmode-popuplabels-5e6a86": "#5e6a86",
+        black: "#000",
+        gray: {
+          "100": "#fefefe",
+          "200": "#8e8e8e",
+          "300": "#7f7f7f",
+          "400": "#7c7c7c",
+          "500": "#7a7a7a",
+          "600": "#787878",
+          "700": "#767676",
+          "800": "#242323",
+          "900": "#191919",
+          "1000": "#191818",
+        },
+        whitesmoke: {
+          "100": "#f4f6f5",
+          "200": "#eaeaea",
+        },
+        gainsboro: "#d9d9d9",
+        khaki: "#ebd96b",
+        goldenrod: "#e5c643",
+        snow: "#fffcf8",
+      },
+      spacing: {},
+      fontFamily: {
+        roboto: "Roboto",
+        alegreya: "Alegreya",
+        "source-code-pro": "'Source Code Pro'",
+        poppins: "Poppins",
+      },
+      borderRadius: {
+        "base-5": "15.5px",
+        "xs-3": "11.3px",
+        "5xs-5": "7.5px",
+        mini: "15px",
+        "7xs-3": "5.3px",
+        "sm-3": "13.3px",
+        "mid-7": "17.7px",
+        "7xs-8": "5.8px",
+      },
+    },
+    fontSize: {
+      "19xl-8": "2.42rem",
+      "34xl-4": "3.34rem",
+      "10xl": "1.81rem",
+      "78xl": "6.06rem",
+      "5xl": "1.5rem",
+      lg: "1.13rem",
+      "11xl": "1.88rem",
+      "5xl-8": "1.55rem",
+      xl: "1.25rem",
+      mini: "0.94rem",
+      smi: "0.81rem",
+      "22xl-3": "2.58rem",
+      "16xl": "2.19rem",
+      sm: "0.88rem",
+      "17xl": "2.25rem",
+      "6xl": "1.56rem",
+      base: "1rem",
+      "base-5": "1.03rem",
+      inherit: "inherit",
+    },
+    screens: {
+      lg: {
+        max: "1200px",
+      },
+      md: {
+        max: "960px",
+      },
+      sm: {
+        max: "420px",
+      },
+    },
+  },
+  corePlugins: {
+    preflight: false,
+  },
+};
